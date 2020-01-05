@@ -1,5 +1,5 @@
 {
-  "name": "node-meterapi",
+  "name": "meterapi",
   "version": "0.1.0",
   "description": "npm module for meterapi.io",
   "main": "index.js",
