@@ -1,0 +1,45 @@
+query getAccount($accountId: ID!) {
+	getAccount(id: $accountId) {
+		id
+		name
+		status
+		email
+		createdAt
+		supplier {
+			id
+			name
+			logoUrl
+			category
+		}
+		supplies {
+			id
+			createdAt
+			address {
+				name
+				line1
+				line2
+				town
+				postcode
+			}
+			balance
+			transactions {
+				createdAt
+				amount
+				reason
+			}
+		}
+		transfers {
+			id
+			supplier {
+				id
+				name
+				logoUrl
+				category
+			}
+			status
+			statusMessage
+			createdAt
+			updatedAt
+	}
+	}
+}

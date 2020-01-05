@@ -1,0 +1,6 @@
+mutation newAccount($supplierId: ID!, $newAccount: NewAccount!) {
+	newAccount(supplierId: $supplierId, account: $newAccount) {
+		accountId
+		token
+	}
+}

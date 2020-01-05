@@ -1,0 +1,5 @@
+mutation connectAccount($supplierId: ID!, $redirectUrl: String!) {
+	connectAccount(supplierId: $supplierId, redirectUrl: $redirectUrl) {
+		connectionUrl
+	}
+}

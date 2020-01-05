@@ -1,0 +1,38 @@
+{
+  "name": "node-meterapi",
+  "version": "0.1.0",
+  "description": "npm module for meterapi.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build",
+    "generate": "graphql-codegen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshbalfour/node-meterapi.git"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [],
+  "author": "Josh Balfour<josh@joshbalfour.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshbalfour/node-meterapi/issues"
+  },
+  "homepage": "https://github.com/joshbalfour/node-meterapi#readme",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.10.0",
+    "@graphql-codegen/typescript": "^1.10.0",
+    "@graphql-codegen/typescript-graphql-request": "^1.10.0",
+    "@graphql-codegen/typescript-operations": "^1.10.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "graphql": "^14.5.8",
+    "graphql-request": "^1.8.2"
+  }
+}

@@ -1,0 +1,8 @@
+query getSuppliers {
+	getSuppliers {
+		id
+		name
+		logoUrl
+		category
+	}
+}
