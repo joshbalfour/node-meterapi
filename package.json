@@ -1,6 +1,6 @@
 {
   "name": "meterapi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "npm module for meterapi.io",
   "main": "index.js",
   "scripts": {
